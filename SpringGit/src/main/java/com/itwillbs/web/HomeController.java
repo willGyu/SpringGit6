@@ -49,6 +49,19 @@ public class HomeController {
 		
 	}
 	
+	// 집에서 작업한 내용 	
+	@RequestMapping(value = "/test2",method = RequestMethod.GET)
+	public void Test2() {
+		logger.debug(" Test2() 호출 !! ");
+		
+		logger.debug(" 1. 서비스 객체 생성 ");
+		
+		logger.debug(" 2. DAO 객체 생성 ");
+		
+		logger.debug(" 3. mapper 호출 ");
+		
+	}
+	
 	
 	
 	
