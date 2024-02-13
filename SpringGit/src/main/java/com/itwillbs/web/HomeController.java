@@ -72,7 +72,10 @@ public class HomeController {
 		
 		logger.debug(" 3. mapper 호출 ");
 		
+		logger.debug(" 4. Test 실행 ");
+		
 	}
+	
 	
 	
 	
